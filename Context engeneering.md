@@ -1,8 +1,3 @@
-As a developer researching context engineering, Karpathy's tweet deeply resonates. It elegantly shifts the focus from simplistic "prompting" to the intricate "context engineering," which is indeed the backbone of robust LLM applications. The challenge lies in strategically populating that limited context window with precisely what the LLM needs, balancing completeness with conciseness and relevance.
-
-Based on these considerations, here's a generic system template for designing a "context agent," adaptable to various circumstances and objectives. This template aims to provide a structured way to think about and construct the full context fed to an LLM for each interaction, leveraging Google tools for implementation.
-
------
 
 ## Generic System Template for a "Context Agent"
 
