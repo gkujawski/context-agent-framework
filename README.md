@@ -115,6 +115,8 @@ This framework is designed to be highly compatible with Google Cloud's AI and da
 ## **Project Structure (Suggested)**
 
 A possible directory structure for a project implementing this framework:  
+
+```
 context-agent-framework/  
 ├── README.md  
 ├── requirements.txt           \# Python dependencies (e.g., google-cloud-aiplatform, firebase-admin)  
@@ -139,6 +141,7 @@ context-agent-framework/
 ├── tests/  
 │   └── test\_context\_assembly.py  
 └── .gitignore
+```
 
 ## **Getting Started**
 
