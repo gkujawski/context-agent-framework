@@ -143,26 +143,6 @@ context-agent-framework/
 └── .gitignore
 ```
 
-## **Getting Started**
-
-1. **Clone this repository:**  
-   git clone https://github.com/your-username/context-agent-framework.git  
-   cd context-agent-framework
-
-2. **Set up your Google Cloud Project:**  
-   * Enable the Vertex AI API, Firestore API, and Cloud Functions API.  
-   * Set up authentication (e.g., Application Default Credentials or Service Account).  
-3. **Install dependencies:**  
-   pip install \-r requirements.txt
-
-4. **Populate config/ and data/:**  
-   * Add your specific system prompts, tool definitions, and initial knowledge base documents.  
-5. **Implement core logic:**  
-   * Develop the main.py to orchestrate the context assembly based on user input.  
-   * Implement the helper functions in utils/ to interact with Google Cloud services.  
-6. **Deploy (Optional):**  
-   * Consider deploying your orchestration logic to Cloud Run or App Engine for a scalable web service.
-
 ## **Contributing**
 
 Contributions are welcome\! Please feel free to open issues or submit pull requests to improve this framework.
